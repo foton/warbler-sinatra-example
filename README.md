@@ -34,3 +34,9 @@ $ heroku deploy:jar heroku-warbler-example.war
 ### Maven Deployment
 
 Another method of deployment, not demonstrated here, uses a `pom.xml` to configure the app. For an example of this, see the [jruby-async-servlets-example](https://github.com/jkutner/jruby-async-servlets-example).
+
+
+### Local run
+1) run it: `budle exec rackup -p 3000` (and open localhost:3000)
+2) warble it: `MAVEN_REPO=https://repo1.maven.org/maven2 bundle exec warble executable war`
+3) run it form java: `java -jar heroku-warbler-example.war` (and open localhost:8080)

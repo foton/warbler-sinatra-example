@@ -2,5 +2,5 @@
 #     [200, {'Content-Type' => 'text/html'}, "Hello, World: #{env.inspect}"]
 # }
 
-require_relative 'address_book'
+require_relative 'lib/address_book'
 run AddressBook.new
