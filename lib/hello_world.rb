@@ -1,6 +1,6 @@
 require 'sinatra/base'
 
-class AddressBook < Sinatra::Base
+class HelloWorld < Sinatra::Base
   get '/' do
     'Hello World!'
   end
